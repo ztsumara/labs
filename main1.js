@@ -10,15 +10,18 @@ function  convertSpeed(x1, s){
     else{
         console.log("ERROR");
     }
+    return "Done"
 }
 
 function  absValue (x){
-   if (x<0){
+    if (x<0){
     console.log(-x);
-   }
-   else{
+    return -x
+    }
+    else{
     console.log(x);
-   }
+    return x
+    }
 }
 function object(){
     let student = {
@@ -29,10 +32,12 @@ function object(){
     keys = Object.keys(student);
     console.log("Список свойств: "+Object.keys(student)[0]+", "+Object.keys(student)[1]+", "+Object.keys(student)[2]+"\n");
     console.log("Студент " +student.first_name+" "+ student.last_name+" учится в "+student.group+" группе\n");
+    return "done"
 }
 function four(min,max){
     
     console.log(randomNumber(min,max));
+    return randomNumber(min,max);
 }
 function randomNumber(min,max){
     
@@ -56,4 +61,5 @@ function getarr(){
 function five(){
     
     console.log(getarr());
+    return getarr();
 }
