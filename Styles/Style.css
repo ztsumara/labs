@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    --custom-property: #ffffff;
+    font-size: 62.5%;
+    Font-family: "DM Sans", sans-serif;;
+    Font-style: normal;
+}
+.forflex{
+    display: flex;
+    flex-direction: column;
+}
+.modal{
+    width: 50rem;
+    border: 0;
+    background-color: var(--custom-property-back);
+    border-radius: 16px;
+    padding: 0;
+}
+.formsend {
+    /* Just to center the form on the page */
+    margin: 3rem auto;
+    width: max-content;
+    
+    /* To see the limits of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.data{
+    padding: 1em;
+    width: 15.8rem;
+    margin: 1rem auto;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.send{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 3.2rem;
+    margin: 0 auto;
+    gap: 0.8rem;
+    width: 12rem;
+   
+  
+   
+    margin-top: 0.5rem;
+    margin-bottom: 2.9rem;
+    /* secondary */
+    background-color: #ffffff;
+    border-radius: 8.2rem;
+  
+    /* text */
+  
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.03em;
+    
+  
+    /* white */
+    color:#000000;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    white-space: nowrap;
+    text-decoration: none;
+    
+}
+.labelsend {
+    /* To make sure that all label have the same size and are properly align */
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    font-size: 11px;
+    margin-top: 1.5rem;
+}
+.send:hover{
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    background-color: #c7c6c6;
+
+    transform: scale(1.1);
+}
+.send:active{
+    background: #c7c6c6;
+    transform: scale(0.9);
+}
+.DisplayNone{
+    display: none;
+}
